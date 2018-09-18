@@ -12,6 +12,7 @@
 		627325222150221C00215043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627325202150221C00215043 /* Main.storyboard */; };
 		627325242150221D00215043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627325232150221D00215043 /* Assets.xcassets */; };
 		627325272150221D00215043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627325252150221D00215043 /* LaunchScreen.storyboard */; };
+		6273252F2150223A00215043 /* original.png in Resources */ = {isa = PBXBuildFile; fileRef = 6273252E2150223A00215043 /* original.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		627325232150221D00215043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627325262150221D00215043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		627325282150221D00215043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6273252E2150223A00215043 /* original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		6273251B2150221C00215043 /* CIPerspectiveCorrection */ = {
 			isa = PBXGroup;
 			children = (
+				6273252E2150223A00215043 /* original.png */,
 				6273251C2150221C00215043 /* AppDelegate.swift */,
 				6273251E2150221C00215043 /* ViewController.swift */,
 				627325202150221C00215043 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6273252F2150223A00215043 /* original.png in Resources */,
 				627325272150221D00215043 /* LaunchScreen.storyboard in Resources */,
 				627325242150221D00215043 /* Assets.xcassets in Resources */,
 				627325222150221C00215043 /* Main.storyboard in Resources */,
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55R2UA3DBL;
 				INFOPLIST_FILE = CIPerspectiveCorrection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55R2UA3DBL;
 				INFOPLIST_FILE = CIPerspectiveCorrection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
